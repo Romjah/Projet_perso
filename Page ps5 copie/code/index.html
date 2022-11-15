@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PS5 Interface</title>
+
+  <!-- JS -->
+  <script src="https://kit.fontawesome.com/9b628f0366.js" crossorigin="anonymous"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-image: url('../image/bg-dirt-5.png');">
+  <header>
+    <div class="left">
+      <a href="#" style="color: white;padding-left: 50px;">Jeux</a>
+      <a href="#" style="font-weight: 100; margin-left: 50px;">Contenu multimédia</a>
+    </div>
+    <div class="right">
+      <a href="#"><i class="fas fa-search"></i></a>
+      <a href="#"><i class="fas fa-cog"></i></a>
+      <a href="#"><img src="/Users/Romain.jhr/Documents/projet perso/Page ps5/image/zoro_profil.jpg" alt="zoro_profil"
+          style="height: 50px; border-radius: 50px;padding-right: 10px;"></a>
+      <div class="time" aria-level="3" role="heading">01:07</div>
+    </div>
+  </header>
+
+  <div id="carousel">
+
+    <div class="hideLeft" id="Sackboy-game">
+      <section><img src="../image/game-thumbnail-sackboy.png" id="sackboy">
+        <span>Sackboy: A big Adventure™</span>
+      </section>
+      <div class="game-info">
+        <div class="left">
+          <img src="../image/logo-sackboy.png" alt="logo-sackboy">
+          <h1>Sackboy: A big Adventure™</h1>
+          <div class="button-left">
+            <a href="#">Jouer</a>
+            <a href="#"><i class="fas fa-ellipsis"></i></a>
+          </div>
+        </div>
+        <div class="right">
+          <div class="cover">
+            <span class="complet">Jeu Complet</span>
+            <span class="update">Mise à niveau PS gratuite</span>
+          </div>
+          <div class="trophy">
+            <i class="fas fa-trophy"></i>
+            <div class="progress">
+              <span>Progression</span>
+              <span>10%</span>
+            </div>
+            <div class="win">
+              <span>Remportés</span>
+              <span>18/40</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="prevLeftSecond" id="spiderman-game">
+      <section><img src="../image/game-thumbnail-spider-man.png" id="spider-man">
+        <span>Marvel's Spider-Man: Miles Morales</span>
+      </section>
+      <div class="game-info">
+        <div class="left">
+          <img src="../image/logo-spider-man.png" alt="logo-spider-man">
+          <h1>Marvel's Spider-Man: Miles Morales</h1>
+          <div class="button-left">
+            <a href="#">Jouer</a>
+            <a href="#"><i class="fas fa-ellipsis"></i></a>
+          </div>
+        </div>
+        <div class="right">
+          <div class="cover">
+            <span class="complet">Jeu Complet</span>
+            <span class="update">Mise à niveau PS gratuite</span>
+          </div>
+          <div class="trophy">
+            <i class="fas fa-trophy"></i>
+            <div class="progress">
+              <span>Progression</span>
+              <span>100%</span>
+            </div>
+            <div class="win">
+              <span>Remportés</span>
+              <span>80/80</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="prev" id="demon-game">
+      <section><img src="../image/game-thumbnail-demons-souls.png" id="demons-souls">
+        <span>Demon's Souls</span>
+      </section>
+      <div class="game-info">
+        <div class="left">
+          <img src="../image/logo-demons-souls.png" alt="logo-demons-souls">
+          <h1>Demon's Souls</h1>
+          <div class="button-left">
+            <a href="#">Jouer</a>
+            <a href="#"><i class="fas fa-ellipsis"></i></a>
+          </div>
+        </div>
+        <div class="right">
+          <div class="cover">
+            <span class="complet">Jeu Complet</span>
+            <span class="update">Mise à niveau PS gratuite</span>
+          </div>
+          <div class="trophy">
+            <i class="fas fa-trophy"></i>
+            <div class="progress">
+              <span>Progression</span>
+              <span>70%</span>
+            </div>
+            <div class="win">
+              <span>Remportés</span>
+              <span>50/120</span>
+            </div>
+
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <div class="selected" id="dirt-game">
+      <section>
+        <img src="../image/game-thumbnail-dirt-5.png" id="dirt-5">
+        <span>DIRT 5™ | PS5</span>
+      </section>
+      <div class="game-info">
+        <div class="left">
+          <img src="../image/logo-dirt-5.png" alt="logo-dirt-5">
+          <h1>DIRT 5</h1>
+          <div class="button-left">
+            <a href="#">Jouer</a>
+            <a href="#"><i class="fas fa-ellipsis"></i></a>
+          </div>
+        </div>
+        <div class="right">
+          <div class="cover">
+            <span class="complet">Jeu Complet</span>
+            <span class="update">Mise à niveau PS gratuite</span>
+          </div>
+          <div class="trophy">
+            <i class="fas fa-trophy"></i>
+            <div class="progress">
+              <span>Progression</span>
+              <span>6%</span>
+            </div>
+            <div class="win">
+              <span>Remportés</span>
+              <span>3/21</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="next" id="Yakuza-game">
+      <section><img src="../image/game-thumbnail-yakuza.png" id="yakuza">
+        <span>Yakuza: Like A Dragon | PS4</span>
+      </section>
+      <div class="game-info">
+        <div class="left">
+          <img src="../image/logo-yakuza.png" alt="logo-yakuza">
+          <h1>Yakuza: Like A Dragon | PS4</h1>
+          <div class="button-left">
+            <a href="#">Jouer</a>
+            <a href="#"><i class="fas fa-ellipsis"></i></a>
+          </div>
+        </div>
+        <div class="right">
+          <div class="cover">
+            <span class="complet">Jeu Complet</span>
+            <span class="update">Mise à niveau PS gratuite</span>
+          </div>
+          <div class="trophy">
+            <i class="fas fa-trophy"></i>
+            <div class="progress">
+              <span>Progression</span>
+              <span>2%</span>
+            </div>
+            <div class="win">
+              <span>Remportés</span>
+              <span>6/50</span>
+            </div>
+
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <div class="nextRightSecond" id="XIII-game">
+      <section><img src="../image/game-thumbnail-XIII.png" id="XIII">
+        <span>XIII | PS4</span>
+      </section>
+      <div class="game-info">
+        <div class="left">
+          <img src="../image/logo-XIII.png" alt="logo-XIII">
+          <h1>XIII | PS4</h1>
+          <div class="button-left">
+            <a href="#">Jouer</a>
+            <a href="#"><i class="fas fa-ellipsis"></i></a>
+          </div>
+        </div>
+        <div class="right">
+          <div class="cover">
+            <span class="complet">Jeu Complet</span>
+            <span class="update">Mise à niveau PS gratuite</span>
+          </div>
+          <div class="trophy">
+            <i class="fas fa-trophy"></i>
+            <div class="progress">
+              <span>Progression</span>
+              <span>65%</span>
+            </div>
+            <div class="win">
+              <span>Remportés</span>
+              <span>30/42</span>
+            </div>
+
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <div class="hideRight" id="watch_dogs-game">
+      <section><img src="../image/game-thumbnail-watch-dogs.png" id="watch-dogs">
+        <span>Watch Dogs®: Legion | PS4</span>
+      </section>
+      <div class="game-info">
+        <div class="left">
+          <img src="../image/logo-watch_dogs.png" alt="logo-Watch_Dogs" style="height: 193px; width: 192.33px; border-radius: 40px;">
+          <h1>Watch Dogs®: Legion | PS4</h1>
+          <div class="button-left">
+            <a href="#">Jouer</a>
+            <a href="#"><i class="fas fa-ellipsis"></i></a>
+          </div>
+        </div>
+        <div class="right">
+          <div class="cover">
+            <span class="complet">Jeu Complet</span>
+            <span class="update">Mise à niveau PS gratuite</span>
+          </div>
+          <div class="trophy">
+            <i class="fas fa-trophy"></i>
+            <div class="progress">
+              <span>Progression</span>
+              <span>89%</span>
+            </div>
+            <div class="win">
+              <span>Remportés</span>
+              <span>65/70</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+
+    function moveToSelected(element) {
+
+      if (element == "next") {
+        var selected = $(".selected").next();
+      } else if (element == "prev") {
+        var selected = $(".selected").prev();
+      } else {
+        var selected = element;
+      }
+
+      var next = $(selected).next();
+      var prev = $(selected).prev();
+      var prevSecond = $(prev).prev();
+      var nextSecond = $(next).next();
+
+      $(selected).removeClass().addClass("selected");
+
+      $(prev).removeClass().addClass("prev");
+      $(next).removeClass().addClass("next");
+
+      $(nextSecond).removeClass().addClass("nextRightSecond");
+      $(prevSecond).removeClass().addClass("prevLeftSecond");
+
+      $(nextSecond).nextAll().removeClass().addClass('hideRight');
+      $(prevSecond).prevAll().removeClass().addClass('hideLeft');
+
+    }
+
+    // Eventos teclado
+    $(document).keydown(function (e) {
+      switch (e.which) {
+        case 37: // left
+          moveToSelected('prev');
+          break;
+
+        case 39: // right
+          moveToSelected('next');
+          break;
+
+        default: return;
+      }
+      e.preventDefault();
+    });
+
+    $('#carousel > div').click(function () {
+      moveToSelected($(this));
+    });
+
+    $('#prev').click(function () {
+      moveToSelected('prev');
+    });
+
+    $('#next').click(function () {
+      moveToSelected('next');
+    });
+  </script>
+
+  <script>
+    $('#sackboy').on('click', function () {
+      $('body').css('background-image', 'url(../image/bg-sackboy.png)')
+    });
+    $('#spider-man').on('click', function () {
+      $('body').css('background-image', 'url(../image/bg-spider-man.png)')
+    });
+    $('#demons-souls').on('click', function () {
+      $('body').css('background-image', 'url(../image/bg-demons-souls.png)')
+    });
+    $('#dirt-5').on('click', function () {
+      $('body').css('background-image', 'url(../image/bg-dirt-5.png)')
+    });
+    $('#yakuza').on('click', function () {
+      $('body').css('background-image', 'url(../image/bg-yakuza.png)')
+    });
+    $('#XIII').on('click', function () {
+      $('body').css('background-image', 'url(../image/bg-XIII.png)')
+    });
+    $('#watch-dogs').on('click', function () {
+      $('body').css('background-image', 'url(../image/bg-watch-dogs.png)')
+    });
+  </script>
+</body>
+
+</html>
