@@ -65,12 +65,12 @@ h3{
 .section-left{
         background-color: #fff;
         float: left;
-        width: 400px;
+        width: 60%;
 }
 .section-right{
     background-color: #fff;
     float: left;
-    width: 400px;
+    width: 40%;
 }
 h4{
     margin-left: 10%;
