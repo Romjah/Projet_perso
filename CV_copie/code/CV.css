@@ -32,15 +32,20 @@ header{
 }
 
 .des{
-    margin-left: 25%;
-    margin-top: -10%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 31%;
+    top: -73%;
+    left: 30%;
 }
 
 h3{
     color: #13c3ba;
     font-weight: bold;
     letter-spacing: .1rem;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .post{
@@ -53,9 +58,9 @@ h3{
     margin: 5px;
     padding: 0;
     position: relative;
-    top: -60%;
-    right: -72%;
-    width: 21%;
+    top: -178%;
+    right: -68%;
+    width: 29%;
 }
 .right p{
     letter-spacing: .1rem;
