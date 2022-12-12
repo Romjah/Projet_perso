@@ -44,17 +44,18 @@ header{
 }
 
 h3{
-    color: #13c3ba;
+    color: #0fb6ad;
     font-weight: bold;
     letter-spacing: .1rem;
-    font-size: 24px;
-    margin: 10% 0 0 0;
+    font-size: 1.65em;
+    margin: 4% 0 0 0;
 }
 
 .post{
     color: orange;
     font-weight: bold;
-    letter-spacing: .1rem;
+    letter-spacing: .14rem;
+    font-size: 1em;
 }
 
 .right{
@@ -78,6 +79,7 @@ h3{
     background-color: #13c3ba;
     float: left;
     width: 30%;
+    height: 95.15%;
     color: black;
 }
 .section-right{
@@ -93,7 +95,7 @@ h3{
 }
 .section-right h4{
     margin-left: 10%;
-    color: #13c3ba;
+    color: #0fb6ad;
     letter-spacing: .1rem;
     font-size: 18px;
 }
@@ -107,7 +109,7 @@ h4{
     margin-bottom: 0.1rem;
 }
 .section-right hr.light{
-    border-top: 2px solid #13c3ba;
+    border-top: 2px solid #0fb6ad;
     width: 90%;
     margin-top: 0.8rem;
     margin-bottom: 0.1rem;
@@ -116,16 +118,25 @@ h4{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin:0 5% 0 10%;
+    width: 90%;
+}
+.atouts_titre{
+    width: 90%;
+}
+.details{
+    margin-right: 10%;
 }
 .formation{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin:0 5% 0 10%;
+    width: 90%;
 }
 .experience{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin:0 5% 0 10%;
+    width: 90%;
 }
 
 .skils{
@@ -191,9 +202,9 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px;
+    margin: 30px;
 }
 .github a{
-    margin-left: 20px;
+    margin-left: 30px;
     padding: 0;
 }
