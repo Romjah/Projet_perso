@@ -52,11 +52,15 @@ h3{
 .right{
     margin: 5px;
     padding: 0;
-    margin-top: -10%;
+    position: relative;
+    top: -60%;
+    right: -72%;
+    width: 21%;
 }
 .right p{
-    margin-left: 600px;
     letter-spacing: .1rem;
+    position: relative;
+    left: 8%;
 }
 .info{
     width: 20px;
