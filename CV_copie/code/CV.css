@@ -6,6 +6,8 @@ main {
     box-shadow: 30px 0px 40px rgb(196,196,196), -30px 0px 40px rgb(196,196,196);
     margin: auto;
     max-width: 900px;
+    height: 3508px;
+    width: 2480px;
 }
 
 .srkl {
@@ -183,4 +185,15 @@ span{
 .fa-brands, .fab {
     font-weight: 400;
     width: 0%;
+}
+.github{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.github a{
+    margin-left: 20px;
+    padding: 0;
 }
