@@ -1,13 +1,8 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-main {
-    box-shadow: 30px 0px 40px rgb(196,196,196), -30px 0px 40px rgb(196,196,196);
-    margin: auto;
+    margin: 0;
     max-width: 900px;
-    height: 3508px;
-    width: 2480px;
+    height: 29.7cm;
+    width: 21cm;
 }
 
 .srkl {
@@ -78,14 +73,14 @@ h3{
 .section-left{
     background-color: #13c3ba;
     float: left;
-    width: 30%;
-    height: 95.15%;
+    width: 31%;
+    height: 92%;
     color: black;
 }
 .section-right{
     background-color: #fff;
     float: left;
-    width: 70%;
+    width: 69%;
 }
 .section-left h4{
     margin-left: 10%;
@@ -100,7 +95,7 @@ h3{
     font-size: 18px;
 }
 h4{
-    text-shadow: 1px 1px 1px black;    
+    text-shadow: 2px 1px 2px black;    
 }
 .section-left hr.light{
     border-top: 2px solid orange;
@@ -117,8 +112,9 @@ h4{
 .atouts{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin:0 5% 0 10%;
-    width: 90%;
+    margin: 0 5% 0 10%;
+    width: 92%;
+    font-size: 1em;
 }
 .atouts_titre{
     width: 90%;
@@ -129,20 +125,22 @@ h4{
 .formation{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin:0 5% 0 10%;
-    width: 90%;
+    margin: 0 5% 0 10%;
+    width: 92%;
+    font-size: 0.95em;
 }
 .experience{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin:0 5% 0 10%;
-    width: 90%;
+    margin: 0 5% 0 10%;
+    width: 92%;
+    font-size: 0.95em;
 }
 
 .skils{
     padding: 0;
     width: 85%;
-    margin-left: 10%;
+    margin-left: 8%;
 }
 .cool{
     background-color: #fff;
@@ -166,11 +164,14 @@ strong{
     background-color: rgba(163, 159, 159, 0.553);
 }
 .reseau{
-    margin-left: 10%;
+    margin-left: 8%;
 }
 .interet{
-    margin-left: 10%;
+    margin-left: 8%;
     font-size: 0.9em;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 a{
@@ -202,9 +203,12 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 30px;
+    margin: 9% 0;
 }
 .github a{
     margin-left: 30px;
     padding: 0;
+}
+i{
+    font-size: 0.95em;
 }
