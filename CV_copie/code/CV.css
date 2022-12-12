@@ -63,45 +63,68 @@ h3{
     height: 20px;
 }
 .section-left{
-        background-color: #fff;
-        float: left;
-        width: 60%;
+    background-color: #13c3ba;
+    float: left;
+    width: 30%;
+    color: black;
 }
 .section-right{
     background-color: #fff;
     float: left;
-    width: 40%;
+    width: 70%;
 }
-h4{
+.section-left h4{
+    margin-left: 10%;
+    color: orange;
+    letter-spacing: .1rem;
+    font-size: 18px;
+}
+.section-right h4{
     margin-left: 10%;
     color: #13c3ba;
     letter-spacing: .1rem;
     font-size: 18px;
 }
-hr.light{
+h4{
+    text-shadow: 1px 1px 1px black;    
+}
+.section-left hr.light{
+    border-top: 2px solid orange;
+    width: 90%;
+    margin-top: 0.8rem;
+    margin-bottom: 0.1rem;
+}
+.section-right hr.light{
     border-top: 2px solid #13c3ba;
     width: 90%;
-    margin-top: .8rem;
-    margin-bottom: .1rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.1rem;
 }
 .atouts{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 10%;
+    margin:0 5% 0 10%;
 }
-.div{
-    margin-left: 10%;
-    margin-bottom: 0px;
+.formation{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin:0 5% 0 10%;
 }
+.experience{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin:0 5% 0 10%;
+}
+
 .skils{
     padding: 0;
-    width: 40%;
+    width: 85%;
     margin-left: 10%;
 }
 .cool{
     background-color: #fff;
     border: 2px solid #ccc;
-    width: 300px;
+    width: 200px;
     height: 7px;
 }
 .po{
@@ -119,8 +142,12 @@ strong{
     height: 100%;
     background-color: rgba(163, 159, 159, 0.553);
 }
+.reseau{
+    margin-left: 10%;
+}
 .interet{
     margin-left: 10%;
+    font-size: 0.9em;
 }
 
 a{
@@ -132,4 +159,14 @@ span{
 }
 .annee{
     font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lien{
+    height: 10%;
+    width: 100%;
+}
+.reseau a{
+    font-size: 0.8em;
 }
