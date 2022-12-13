@@ -43,8 +43,8 @@ h3{
     color: #0fb6ad;
     font-weight: bold;
     letter-spacing: .1rem;
-    font-size: 1.2em;
-    margin: 0.8% 0 0 0;
+    font-size: 1.3em;
+    margin: 0.5% 0 0 0;
 }
 
 .post{
@@ -97,7 +97,8 @@ h3{
     font-size: 18px;
 }
 h4{
-    text-shadow: 2px 0px 0px black;    
+    text-shadow: 2px 0px 0px black;  
+    margin: 0;  
 }
 .section-left hr.light{
     border-top: 2px solid orange;
@@ -111,6 +112,10 @@ h4{
     margin-top: 0.8rem;
     margin-bottom: 0.1rem;
 }
+.titrehaut{
+    margin-top: 10px;
+}
+
 .atouts{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -128,9 +133,8 @@ h4{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 5% 0 10%;
-    width: 90%;
+    width: 100%;
     font-size: 0.95em;
-    flex-wrap: wrap;
 }
 .experience{
     display: grid;
@@ -139,6 +143,11 @@ h4{
     width: 92%;
     font-size: 0.95em;
 }
+.experience p{
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
 
 .skils{
     padding: 0;
@@ -186,7 +195,7 @@ a{
     margin-top: 0;
 }
 .interet img{
-    margin-top: 0;
+    margin-top: 8%;
     height: 65px;
     width: auto;
 }
@@ -214,13 +223,7 @@ span{
     padding: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 20%;
-}
-.github a{
-    margin-left: 30px;
-    padding: 0;
-}
-i{
-    font-size: 0.95em;
+    flex-wrap: wrap;
+    font-size: 0.9em;
+    margin-top: 10%;
 }
