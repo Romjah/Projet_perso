@@ -89,16 +89,19 @@ h3{
     color: orange;
     letter-spacing: .1rem;
     font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .section-right h4{
     margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: #0fb6ad;
     letter-spacing: .1rem;
     font-size: 18px;
 }
 h4{
     text-shadow: 2px 0px 0px black;  
-    margin: 0;  
 }
 .section-left hr.light{
     border-top: 2px solid orange;
@@ -113,7 +116,7 @@ h4{
     margin-bottom: 0.1rem;
 }
 .titrehaut{
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 .atouts{
@@ -135,6 +138,10 @@ h4{
     margin: 0 5% 0 10%;
     width: 100%;
     font-size: 0.95em;
+}
+.formation p{
+    width: 135%;
+    margin: 10px 0 0 0;
 }
 .experience{
     display: grid;
@@ -226,4 +233,10 @@ span{
     flex-wrap: wrap;
     font-size: 0.9em;
     margin-top: 10%;
+}
+.projet_titre{
+    padding-top: 25px;
+}
+.experience_titre{
+    padding-top: 25px;
 }
