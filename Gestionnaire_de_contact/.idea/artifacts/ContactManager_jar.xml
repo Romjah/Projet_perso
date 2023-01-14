@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ContactManager:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ContactManager_jar</output-path>
+    <root id="archive" name="ContactManager.jar">
+      <element id="module-output" name="ContactManager" />
+    </root>
+  </artifact>
+</component>
