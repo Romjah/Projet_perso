@@ -45,7 +45,7 @@ public class App {
 
     private static void listerContacts() {
         System.out.println(
-                "\u27E5 trier ? \u27E4 \033[m\n1- \033[32m⌈par nom⌋\033[30m \033[m\n2- \033[32m⌈par mail⌋\033[30m \033[m\n3- \033[32m⌈par date de naissance⌋\033[37m");
+                "\u  trier ? \u \033[m\n1- \033[32m⌈par nom⌋\033[30m \033[m\n2- \033[32m⌈par mail⌋\033[30m \033[m\n3- \033[32m⌈par date de naissance⌋\033[37m");
         String choix = _scan.nextLine();
         try {
             ArrayList<Contact> list = Contact.lister();
@@ -134,7 +134,7 @@ public class App {
 
     private static void afficherMenu() {
         ArrayList<String> menus = new ArrayList<>();
-        menus.add("       \u27E5  MENU \u27E4");
+        menus.add("       \u27E4  MENU \u27E4");
         menus.add("\033[m1- \033[32m⌈Ajouter un contact⌋\033[37m");
         menus.add("\033[m2- \033[32m⌈Lister les contacts⌋\033[37m");
         menus.add("\033[m3- \033[32m⌈Recherche contact⌋\033[37m");
