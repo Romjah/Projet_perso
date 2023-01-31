@@ -83,6 +83,7 @@ h3{
     float: left;
     width: 14.49cm;
     height: 26.4cm;
+    font-size: 0.8em;
 }
 .section-left h4{
     margin-left: 10%;
@@ -145,18 +146,25 @@ h4{
 .formation p b{
     font-size: 1.2em;
 }
-.experience{
+.projet {
     margin: 0 5% 0 10%;
     width: 92%;
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr; /* two columns with equal width */
+    grid-gap: 1%;
+    grid-column: 1; /* move the others to the first column */
 }
+
+.annee {
+    grid-column: 2; /* move the year to the second column */
+}
+
 .experience p{
     width: 100%;
-    margin: 10px 0 0 0;
+    margin: 10px 0 0 55px;
     font-size: 0.8em;
 }
 .experience p b{
-    width: 100%;
-    margin: 10px 0 0 0;
     font-size: 1.2em;
 }
 
@@ -210,7 +218,7 @@ a{
     margin-top: 0;
 }
 .experience img{
-    margin-top: 8%;
+    margin: 5% 0 0 10%;
     height: 65px;
     width: auto;
 }
