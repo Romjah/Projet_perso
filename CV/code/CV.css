@@ -203,7 +203,7 @@ strong{
 }
 .interet{
     margin-left: 7%;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
     font-size: 0.9em;
     display: flex;
     justify-content: flex-start;
@@ -248,7 +248,7 @@ span{
     align-items: center;
     flex-wrap: wrap;
     font-size: 0.9em;
-    margin-top: 18%;
+    margin-top: 0;
 }
 .projet_titre{
     padding-top: 25px;
